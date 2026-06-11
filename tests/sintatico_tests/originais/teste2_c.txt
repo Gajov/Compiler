@@ -1,6 +1,6 @@
 class Teste2{
 /* Teste de comentario
-com mais de uma linha
+com mais de uma linha */
 
   float a;
 
@@ -8,7 +8,7 @@ com mais de uma linha
   read(a);
 
   if (a % 2 = 0){
-    write(a + "e par").
+    write(a + "e par");
   }
   else{
     write(a + "e impar");

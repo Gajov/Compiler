@@ -5,7 +5,7 @@ class Teste1{
   write("Digite o valor da base:");
   read(base);
   write("Digite o valor da altura:");
-  read(altura);
-  area := base * altura / 2.0;
+  read(altura;
+  area := base * altura / 2.0
   write("A area e: " + area);
 }

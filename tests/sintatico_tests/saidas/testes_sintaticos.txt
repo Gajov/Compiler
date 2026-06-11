@@ -1,0 +1,33 @@
+Teste 1 original sintatico
+RESULTADO: erro sintatico.
+linha 8, coluna 14 - esperado ')', encontrado ';'
+Teste 1 corrigido sintaticamente
+RESULTADO: sucesso na analise sintatica.
+
+Teste 2 original sintatico
+RESULTADO: sucesso na analise sintatica.
+Teste 2 corrigido sintaticamente
+RESULTADO: sucesso na analise sintatica.
+
+Teste 3 original sintatico
+RESULTADO: erro sintatico.
+linha 10, coluna 10 - esperado ')', encontrado ';'
+Teste 3 corrigido sintaticamente
+RESULTADO: sucesso na analise sintatica.
+
+Teste 4 original sintatico
+RESULTADO: erro sintatico.
+linha 1, coluna 1 - esperado 'class', encontrado '{'
+Teste 4 corrigido sintaticamente
+RESULTADO: sucesso na analise sintatica.
+
+Teste 5 original sintatico
+RESULTADO: erro sintatico.
+linha 6, coluna 1 - esperado '{', encontrado 'int'
+Teste 5 corrigido sintaticamente
+RESULTADO: sucesso na analise sintatica.
+
+Teste 6 original sintatico
+RESULTADO: sucesso na analise sintatica.
+Teste 6 corrigido sintaticamente
+RESULTADO: sucesso na analise sintatica.

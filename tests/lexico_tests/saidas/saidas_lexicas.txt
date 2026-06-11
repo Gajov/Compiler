@@ -1,0 +1,34 @@
+Teste 1 original
+RESULTADO: erro lexico.
+linha 2, coluna 13 - identificador invalido '1altura'
+Teste 1 corrigido lexicalmente
+RESULTADO: sucesso na analise lexica.
+
+Teste 2 original
+RESULTADO: erro lexico.
+linha 2, coluna 1 - comentario de bloco nao terminado
+Teste 2 corrigido lexicalmente
+RESULTADO: sucesso na analise lexica.
+
+Teste 3 original
+RESULTADO: erro lexico.
+linha 9, coluna 10 - literal string nao terminado
+Teste 3 corrigido lexicalmente
+RESULTADO: sucesso na analise lexica.
+
+Teste 4 original
+RESULTADO: erro lexico.
+linha 9, coluna 7 - literal string nao terminado
+linha 20, coluna 62 - constante real malformada '109.'
+Teste 4 corrigido lexicalmente
+RESULTADO: sucesso na analise lexica.
+
+Teste 5 original
+RESULTADO: sucesso na analise lexica.
+Teste 5 corrigido lexicalmente
+RESULTADO: sucesso na analise lexica.
+
+Teste 6 original
+RESULTADO: sucesso na analise lexica.
+Teste 6 corrigido lexicalmente
+RESULTADO: sucesso na analise lexica.

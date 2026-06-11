@@ -3,3 +3,5 @@
 
 # Ignora todas as bibliotecas e arquivos compactados do Java
 *.jar
+
+build/
