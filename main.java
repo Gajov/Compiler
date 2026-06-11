@@ -1,7 +1,9 @@
-package sintaticocode;
+import sintatico.SyntaxCompiler;
 
-public class CompilerMain {
+public class main {
     public static void main(String[] args) throws Exception {
         SyntaxCompiler.main(args);
     }
+} {
+    
 }

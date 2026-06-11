@@ -1,6 +1,6 @@
-package sintaticocode;
+package sintatico;
 
-import lexicocode.Token;
+import lexico.Token;
 
 public class SyntaxError extends RuntimeException {
     private final Token token;

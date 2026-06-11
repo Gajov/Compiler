@@ -1,8 +1,7 @@
-package lexicocode;
+package lexico;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Objects;
 
 /**
  * Classe responsável pela análise léxica (Lexer).
@@ -24,7 +23,7 @@ public class Lexer {
      * @param input Código fonte de entrada a ser analisado
      * @param symbolTable Tabela de símbolos utilizada para armazenar identificadores
      */
-    Lexer(String input, SymbolTable symbolTable) {
+    public Lexer(String input, SymbolTable symbolTable) {
         this.input = input;
         this.symbolTable = symbolTable;
     }
@@ -34,7 +33,7 @@ public class Lexer {
      *
      * @return Lista de objetos {@link LexicalError}
      */
-    List<LexicalError> getErrors() {
+    public List<LexicalError> getErrors() {
         return errors;
     }
 
@@ -44,7 +43,7 @@ public class Lexer {
      *
      * @return Próximo {@link Token} identificado ou EOF ao final da entrada
      */
-    Token nextToken() {
+    public Token nextToken() {
         for (;;) {
             skipWhitespaceAndComments();
 

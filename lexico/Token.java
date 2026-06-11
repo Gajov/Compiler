@@ -1,4 +1,4 @@
-package lexicocode;
+package lexico;
 
 import java.util.Objects;
 
@@ -7,10 +7,10 @@ import java.util.Objects;
  * Um token contém seu tipo, o lexema correspondente e a posição no código fonte.
  */
 public class Token {
-    final TokenType type;
-    final String lexeme;
-    final int line;
-    final int column;
+    public final TokenType type;
+    public final String lexeme;
+    public final int line;
+    public final int column;
 
     /**
      * Construtor da classe Token.
@@ -21,11 +21,15 @@ public class Token {
      * @param column Coluna onde o token inicia
      * @throws NullPointerException se type ou lexeme forem nulos
      */
-    Token(TokenType type, String lexeme, int line, int column) {
+    public Token(TokenType type, String lexeme, int line, int column) {
         this.type = Objects.requireNonNull(type);
         this.lexeme = Objects.requireNonNull(lexeme);
         this.line = line;
         this.column = column;
+    }
+
+    public String position() {
+        return "linha " + line + ", coluna " + column;
     }
 
     /**
@@ -37,7 +41,7 @@ public class Token {
      *
      * @return String formatada representando o token
      */
-    String format() {
+    public String format() {
         return String.format("[%03d:%03d] %-14s %s", line, column, type.name(), quote(lexeme));
     }
 

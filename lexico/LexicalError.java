@@ -1,4 +1,4 @@
-package lexicocode;
+package lexico;
 
 /**
  * Representa um erro léxico identificado durante a análise do código fonte.

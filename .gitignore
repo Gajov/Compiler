@@ -1,0 +1,5 @@
+# Ignora todos os arquivos compilados do Java
+*.class
+
+# Ignora todas as bibliotecas e arquivos compactados do Java
+*.jar

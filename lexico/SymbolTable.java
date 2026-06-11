@@ -1,4 +1,4 @@
-package lexicocode;
+package lexico;
 
 import java.util.LinkedHashMap;
 import java.util.Map;

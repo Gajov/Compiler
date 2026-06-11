@@ -1,4 +1,4 @@
-package lexicocode;
+package lexico;
 
 /**
  * Representa um símbolo armazenado na tabela de símbolos.

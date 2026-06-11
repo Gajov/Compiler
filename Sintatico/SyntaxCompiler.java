@@ -1,8 +1,8 @@
-package sintaticocode;
+package sintatico;
 
-import lexicocode.Lexer;
-import lexicocode.LexicalError;
-import lexicocode.SymbolTable;
+import lexico.Lexer;
+import lexico.LexicalError;
+import lexico.SymbolTable;
 
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
@@ -11,7 +11,7 @@ import java.nio.file.Path;
 public class SyntaxCompiler {
     public static void main(String[] args) throws Exception {
         if (args.length == 0) {
-            System.out.println("Uso: java sintaticocode.SyntaxCompiler <arquivo-fonte>");
+            System.out.println("Uso: java sintatico.SyntaxCompiler <arquivo-fonte>");
             return;
         }
 

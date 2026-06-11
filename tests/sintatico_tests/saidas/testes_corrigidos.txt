@@ -1,0 +1,18 @@
+teste1_c.txt
+RESULTADO: erro sintatico.
+linha 8, coluna 14 - esperado ')', encontrado ';'
+
+teste2_c.txt
+RESULTADO: sucesso na analise sintatica.
+
+teste3_c.txt
+RESULTADO: erro sintatico.
+linha 10, coluna 10 - esperado ')', encontrado ';'
+
+teste4_c.txt
+RESULTADO: erro sintatico.
+linha 1, coluna 1 - esperado 'class', encontrado '{'
+
+teste5_c.txt
+RESULTADO: erro sintatico.
+linha 6, coluna 1 - esperado '{', encontrado 'int'

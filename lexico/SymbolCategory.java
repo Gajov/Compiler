@@ -1,4 +1,4 @@
-package lexicocode;
+package lexico;
 
 /**
  * Enumeração que define as categorias possíveis de símbolos

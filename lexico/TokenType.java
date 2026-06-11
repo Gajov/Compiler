@@ -1,4 +1,4 @@
-package lexicocode;
+package lexico;
 
 /**
  * Enumeração que define todos os tipos de tokens reconhecidos pelo analisador léxico.
