@@ -1,4 +1,4 @@
-package sintatico;
+package Sintatico;
 
 import lexico.Token;
 

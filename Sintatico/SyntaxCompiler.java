@@ -1,4 +1,4 @@
-package sintatico;
+package Sintatico;
 
 import lexico.Lexer;
 import lexico.LexicalError;

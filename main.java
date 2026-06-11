@@ -1,4 +1,4 @@
-import sintatico.SyntaxCompiler;
+import Sintatico.SyntaxCompiler;
 
 public class main {
     public static void main(String[] args) throws Exception {

@@ -10,4 +10,4 @@ Compiler/
 
 Exemplo:
   javac -d build lexico/*.java sintatico/*.java main.java
-  java -cp build main tests/sintatico_tests/corrigidos/teste1_c.txt
+  java -cp build main tests/sintatico_tests/corrigidos/teste1_s.txt
